@@ -40,3 +40,20 @@ def fibonacci(n):
 n = int(input("Enter nth term: "))
 fibonacci(n)
 ```
+
+___
+___
+## Editor and Language used: 
+![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=black)
+![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
+___
+
+[![ForTheBadge built-with-love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Sagar-Sharma-7)
+[ ![ForTheBadge makes-people-smile](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/Sagar-Sharma-7)
+<br>
+
+![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)
+[![Follower](https://img.shields.io/github/followers/sagar-sharma-7?style=social)](https://github.com/Sagar-Sharma-7)
+<br>
+
+[![alttext](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagar-Sharma-7)
