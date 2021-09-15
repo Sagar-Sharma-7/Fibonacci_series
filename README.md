@@ -8,3 +8,35 @@
 >>> * the 3 is found by adding the two numbers before it (1 + 3),
 >>> * the 5 is (2 + 3),
 >>> * and so on!
+
+## The two different ways to get fibonacci series:
+1. 
+```py 
+import math
+
+def factorial(n):
+    for i in range(1, n + 1):
+        result = ((((1 + math.sqrt(5))/2)**(i-1)) - (((1- math.sqrt(5))/2)**(i - 1))) / math.sqrt(5) # algorithm of fabonacci series
+        print(int(result), end=" , ")
+
+
+n = int(input("Enter number of terms term: "))
+factorial(n)
+```
+
+----
+2. 
+```py
+def fibonacci(n):
+    first = 0
+    second = 1
+    print(first)
+    print(second)
+    for i in range(1, n):
+        third = first + second
+        print(third)
+        first, second = second, third
+
+n = int(input("Enter nth term: "))
+fibonacci(n)
+```
